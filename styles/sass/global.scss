@@ -1,0 +1,36 @@
+@import"./variables";
+@import"./mixins";
+
+@import"./main";
+@import"./nav";
+@import"./aside";
+@import"./header";
+@import"./section";
+@import"./section2";
+@import"./footer";
+
+body {
+
+    max-width: 1440px;
+
+
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+@media(max-width:400px){
+
+body{
+
+    width: 375px;
+    height: 7614px;
+
+
+}
+
+
+}

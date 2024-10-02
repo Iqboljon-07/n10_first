@@ -1,0 +1,154 @@
+footer{
+
+    width: 100%;
+    height: 166px;
+    top: 5409px;
+  
+    background:$primarycolor1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+.footer-1 {
+    width: 156px;
+    height: 111px;
+    background-color: $primarycolor1;
+
+}
+
+.footer-2 {
+
+    width: 267px;
+    height: 57px;
+
+    display: flex;
+    align-items: center;
+    font-family: Gilroy;
+   
+
+    text-align: left;
+    color:$fontcolor1;
+    @include chatgptn(20px,500)
+
+}
+
+.footer-3 {
+
+    width: 138px;
+    height: 76px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+        font-family: Gilroy;
+       
+        margin: 0;
+        color: $fontcolor1;
+        @include chatgptn(20px,600)
+    }
+   .icons {
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+}
+ 
+
+
+}
+
+
+
+@media(max-width:400px){
+
+    footer{
+
+        width: 100%;
+        height: 92px;
+        top: 7500px;
+        
+        background: $primarycolor1 ;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    
+    
+    
+    
+    .footer-1 {
+        width: 67px;
+        height: 48px;
+        background-color: $primarycolor1;
+    img{
+
+        width: 67px;
+        height: 48px;
+        
+    }
+    }
+    
+    .footer-2 {
+    
+        width: 89px;
+        height: 48px;
+    
+        display: flex;
+        align-items: center;
+       
+        color:$fontcolor1 ;
+    
+        font-family: Gilroy;
+       
+        line-height: 15.6px;
+        text-align: left;
+        @include chatgptn(13px,400)
+    }
+    
+    .footer-3 {
+    
+        width: 84px;
+        height: 48px;
+    
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    
+        p {
+            font-family: Gilroy;
+
+line-height: 14.56px;
+text-align: left;
+@include chatgptn(12px,500);
+            margin: 0;
+            color:$fontcolor1;
+        }
+       .icons {
+        
+        display: flex;
+        
+    width:70px;
+    height:15px;
+    }
+    }
+     
+    
+    
+    }
+
+
+}

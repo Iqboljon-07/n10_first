@@ -1,0 +1,303 @@
+section {
+
+    height: 1328px;
+
+    width: 100%;
+
+    top: 2966px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+
+
+.container-10 {
+
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    height: 86px;
+    align-items: center;
+h1 {
+
+    font-family: Gilroy;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.85px;
+    text-align: left;
+    color: #EEEEEE;
+    margin: 0;
+
+
+
+
+
+}
+
+ p {
+
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.52px;
+    text-align: left;
+    color: #000000;
+
+    margin-top: -45px
+}
+
+}
+
+ 
+
+.container-12 {
+    width: 1075px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 301px);
+    grid-template-rows: repeat(2, 530px);
+
+    column-gap: 86px;
+    row-gap: 56px;
+
+
+
+.container-20 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: #ffffff;
+    border-radius: 15px;
+    background: #5855E7;
+
+    &:nth-child(4){
+
+        position: relative;
+        left:204px
+
+
+    }
+
+    &:nth-child(5){
+
+        position: relative;left:190px
+
+    }
+    img {
+
+        margin-top: 19px;
+        width: 265px;
+        height: 251px;
+    
+    
+    }
+    
+     h2 {
+    
+        font-family: Gilroy;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36.75px;
+        margin-top: 25px
+    }
+    
+     p {
+    
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center;
+        margin-top: -15px;
+    }
+    
+     button {
+    
+        width: 147px;
+        height: 32px;
+    
+    
+        border-radius: 5px;
+        border: none;
+        color: #6347EB;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center
+    }
+
+}
+
+ 
+}
+}
+
+@media(max-width:400px){
+
+section{
+
+
+    height:2593px;
+
+width:100%;
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+
+position: absolute;
+top: 3653px;
+left:0;
+
+
+
+
+
+
+
+.container-10 {
+
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+    height: 93px;
+    align-items: center;
+h1 {
+
+    
+    text-align: left;
+    color: #EEEEEE;
+    margin: 0;
+
+
+    width: 258px;
+    height: 64px;
+
+    font-family: Gilroy;
+font-size: 72px;
+font-weight: 700;
+line-height: 89.14px;
+text-align: left;
+
+
+
+}
+
+ p {
+
+    font-family: Gilroy;
+font-size: 32px;
+font-weight: 700;
+line-height: 39.62px;
+text-align: left;
+
+    text-align: left;
+    color: #000000;
+
+    margin-top: -10px
+}
+
+}
+
+ 
+
+.container-12 {
+    
+    display: grid;
+    grid-template-columns: repeat(1, 301px);
+    grid-template-rows: repeat(5, 550px);
+
+position: absolute;
+top:187px;
+    row-gap: 56px;
+
+    width: 301px;
+    height: 550px;
+    
+    border-radius: 15px;
+  
+.container-20 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: #ffffff;
+    border-radius: 15px;
+    background: #5855E7;
+
+    &:nth-child(4), &:last-child{
+position: relative;
+left:0;
+
+
+
+    }
+    img {
+
+        width: 265px;
+        height: 251px;
+    
+    
+    }
+    
+     h2 {
+    
+        font-family: Gilroy;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36.75px;
+        margin-top: 25px
+    }
+    
+     p {
+    
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center;
+        margin-top: -15px;
+    }
+    
+     button {
+    
+        width: 147px;
+        height: 32px;
+    
+    
+        border-radius: 5px;
+        border: none;
+        color: #6347EB;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.83px;
+        text-align: center
+    }
+
+}
+
+ 
+}
+
+
+
+
+
+
+}
+
+
+}
